@@ -85,7 +85,8 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version}</version>
+			<scope>runtime</scope>
+			<version>8.0.18</version>
 		</dependency>
 		<!-- oracle驱动 -->
 		<dependency>
