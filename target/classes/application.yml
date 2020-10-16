@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8081
 
 # mysql
 spring:
@@ -7,9 +7,9 @@ spring:
     #MySQL配置
     driverClassName: com.mysql.jdbc.Driver
 
-    url: "jdbc:mysql://47.115.118.77:3306/game_art?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
+    url: "jdbc:mysql://192.168.0.135:3306/wsc?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
     username: root
-    password: 12345678
+    password: 1qaz2wsxE
     #oracle配置
     #    driverClassName: oracle.jdbc.OracleDriver
     #    url: jdbc:oracle:thin:@47.100.206.162:1521:xe

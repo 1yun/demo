@@ -184,11 +184,11 @@ public class GenUtils {
         }
         //todo 修改文件名
         if (template.contains("Entity.java.vm" )) {
-            return packagePath + "entity" + File.separator + className + "Entity.java";
+            return packagePath + "model" + File.separator + className +".java" ;
         }
 
         if (template.contains("Dao.java.vm" )) {
-            return packagePath + "dao" + File.separator + className + "Dao.java";
+            return packagePath + "mapper" + File.separator + className + "Mapper.java";
         }
 
         if (template.contains("Service.java.vm" )) {
